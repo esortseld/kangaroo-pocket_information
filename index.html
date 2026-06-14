@@ -140,7 +140,7 @@
 
     .info-list {
       display: grid;
-      grid-template-columns: 4.5rem minmax(0, 1fr);
+      grid-template-columns: 7.2rem minmax(0, 1fr);
       gap: 0.3rem 1rem;
       margin: 0 0 1.1rem;
     }
@@ -151,6 +151,13 @@
     }
 
     .info-list dd { margin: 0; }
+
+    .info-list a {
+      color: var(--brown);
+      overflow-wrap: anywhere;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
 
     .live-images {
       display: grid;
@@ -245,10 +252,17 @@
         <article class="live-card live-card--tanabata" aria-labelledby="tanabata-title">
           <h3 id="tanabata-title" class="card-title">七夕LIVE</h3>
           <dl class="info-list">
-            <dt>日付</dt>
-            <dd>2026/7/4</dd>
+            <dt>開催日</dt>
+            <dd>2026年7月4日(土)</dd>
+            <dt>集合時間</dt>
+            <dd>12:45までに現地集合</dd>
+            <dt>開演・会場・出番</dt>
+            <dd>時間は下記フライヤー参照</dd>
             <dt>会場</dt>
-            <dd>Seven Bridges Road</dd>
+            <dd>
+              Seven Bridges Road<br>
+              <a href="https://seven-bridges-road.jp/access/" target="_blank" rel="noopener noreferrer">https://seven-bridges-road.jp/access/</a>
+            </dd>
           </dl>
 
           <p class="setlist-title">セットリスト</p>
