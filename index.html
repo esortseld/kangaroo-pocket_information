@@ -190,6 +190,38 @@
 
     li { margin: 0.3rem 0; }
 
+    .setlist {
+      display: grid;
+      gap: 0.55rem;
+      padding-left: 1.6rem;
+    }
+
+    .setlist li {
+      padding: 0.5rem 0.7rem;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.62);
+      line-height: 1.5;
+    }
+
+    .song-title {
+      display: block;
+      font-weight: 700;
+    }
+
+    .song-artist {
+      display: block;
+      margin-top: 0.12rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .setlist-mc {
+      color: var(--brown);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
     .planned-setlist {
       list-style: none;
       padding-left: 0;
@@ -266,13 +298,28 @@
           </dl>
 
           <p class="setlist-title">セットリスト</p>
-          <ol>
-            <li>Stop Stop Rock'n' Roll / 山下久美子</li>
-            <li>そのスピードで / the brilliant green</li>
-            <li>MC</li>
-            <li>何度でも / DREAMS COME TRUE</li>
-            <li>Bye My Boy / the brilliant green</li>
-            <li>夢見る少女じゃいられない / 相川七瀬</li>
+          <ol class="setlist">
+            <li>
+              <span class="song-title">Stop Stop Rock'n' Roll</span>
+              <span class="song-artist">山下久美子</span>
+            </li>
+            <li>
+              <span class="song-title">そのスピードで</span>
+              <span class="song-artist">the brilliant green</span>
+            </li>
+            <li class="setlist-mc">MC</li>
+            <li>
+              <span class="song-title">何度でも</span>
+              <span class="song-artist">DREAMS COME TRUE</span>
+            </li>
+            <li>
+              <span class="song-title">Bye My Boy</span>
+              <span class="song-artist">the brilliant green</span>
+            </li>
+            <li>
+              <span class="song-title">夢見る少女じゃいられない</span>
+              <span class="song-artist">相川七瀬</span>
+            </li>
           </ol>
 
           <div class="live-images" aria-label="七夕LIVE画像">
